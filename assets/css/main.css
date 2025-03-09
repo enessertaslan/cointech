@@ -6154,7 +6154,14 @@ body[data-aos-easing="ease"] [data-aos] {
   right: 5%;
   top: 49%;
 }
-
+.shape .shape--2 {
+  display: block;
+}
+@media (max-width: 911px) {
+  .shape .shape--2 {
+    display: none;
+  }
+}
 .xb-team {
   margin-top: 22px;
   position: relative;
