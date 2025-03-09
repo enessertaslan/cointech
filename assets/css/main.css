@@ -5092,6 +5092,12 @@ body[data-aos-easing="ease"] [data-aos] {
   top: -113px;
   z-index: -1;
 }
+@media (max-width: 911px) {
+  .about .about-img img {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .about .about-img img {
     right: -26%;
@@ -5187,6 +5193,9 @@ body[data-aos-easing="ease"] [data-aos] {
   text-align: center;
   bottom: 68px;
   padding: 0 90px;
+}
+.xb-process .xb-item--holder ul {
+  list-style: none;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .xb-process .xb-item--holder {
@@ -5676,6 +5685,16 @@ body[data-aos-easing="ease"] [data-aos] {
   padding: 25px 40px 50px;
   margin-bottom: 30px;
 }
+@media (max-width: 911px) {
+  .feature .feature-wrap {
+    padding: 25px 20px 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .token .toke-shape .shape--two {
+    text-align: center;
+  }
+}
 .feature .feature-wrap .xb-item--title {
   font-size: 30px;
   line-height: 42px;
@@ -5683,17 +5702,35 @@ body[data-aos-easing="ease"] [data-aos] {
   max-width: 290px;
   letter-spacing: -0.02px;
   padding-bottom: 43px;
+  text-align: center;
 }
 .feature .feature-wrap .xb-item--content {
   line-height: 24px;
   max-width: 369px;
 }
+.ul-xb {
+  position: relative;
+}
+@media (max-width: 911px) {
+  .ul-xb {
+    text-align: center;
+    list-style-type: none;
+    line-height: 50px;
+  }
+}
+
 .feature .feature-wrap .xb-item--holder {
   margin-top: 20px;
 }
 .feature .feature-wrap .xb-item--feature-icon {
   padding-left: 25px;
+  margin: auto;
   margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .feature .feature-wrap .xb-item--feature-icon {
+    padding-left: 0px;
+  }
 }
 .feature .feature-crypto {
   border-radius: 20px;
@@ -5779,9 +5816,7 @@ body[data-aos-easing="ease"] [data-aos] {
   display: flex;
   align-items: center;
 }
-.feature .feature-crypto .cry-mobile-img {
-  margin-left: -20px;
-}
+
 .feature .feature-shape {
   position: absolute;
   bottom: -209px;
@@ -8135,7 +8170,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .hero {
-  min-height: 1190px;
+  min-height: 900px;
   background-position: center bottom;
 }
 @media (max-width: 991px) {
@@ -8296,7 +8331,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 .hero .hero-shape .shape--2 {
   position: absolute;
-  left: 13%;
+  left: 7%;
   top: 29%;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -8320,7 +8355,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 .hero .hero-shape .shape--3 {
   position: absolute;
-  right: 14%;
+  right: 8%;
   top: 27.5%;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -10169,7 +10204,7 @@ blockquote .quote {
 }
 
 .xb-logo-mobile img {
-  height: 32px;
+  height: 75px;
 }
 
 .xb-header-mobile-search {
