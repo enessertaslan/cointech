@@ -11116,7 +11116,7 @@ blockquote .quote {
   margin: 15px 0;
 }
 .table-responsive table {
-  width: 100%;
+  width: 75%;
   min-width: 650px;
   border-collapse: separate;
   border-spacing: 0 15px;
