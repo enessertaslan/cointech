@@ -4385,6 +4385,19 @@ body[data-aos-easing="ease"] [data-aos] {
 .xb-footer-wrap .xb-item--footer_widget-list {
   list-style: none;
   margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 0 15px;
+}
+@media (max-width: 911px) {
+  .xb-footer-wrap .xb-item--footer_widget-list {
+    padding: 49px 50px 30px;
+    flex-direction: column;
+    display: flex;
+  }
 }
 .xb-footer-wrap .xb-item--footer_widget-list li a {
   font-size: 16px;
