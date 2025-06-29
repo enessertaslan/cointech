@@ -5134,7 +5134,7 @@ body[data-aos-easing="ease"] [data-aos] {
 }
 @media (max-width: 911px) {
   .about .about-img img {
-    display: none;
+    display: block;
   }
 }
 
@@ -7404,8 +7404,19 @@ body[data-aos-easing="ease"] [data-aos] {
 }
 @media (max-width: 991px) {
   .roadmap-wrap .roadmap--year {
+    display: block;
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+  .roadmap {
     display: none;
   }
+  .roadmap-mobile {
+    display: block !important;
+  }
+}
+.roadmap-mobile {
+  display: none;
 }
 .roadmap-wrap .roadmap--year span {
   font-size: 14px;
@@ -7498,14 +7509,27 @@ body[data-aos-easing="ease"] [data-aos] {
 }
 @media (max-width: 1199px) {
   .roadmap-wrap .roadmap--bottom {
-    padding-left: 11px;
+    padding-left: 0px;
+    margin-left: 0px;
   }
 }
 @media (max-width: 991px) {
   .roadmap-wrap .roadmap--bottom {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: left;
     margin-bottom: -70px;
+  }
+  .roadmap-wrap .roadmap--bottom .bottom-item {
+    margin-top: 100px !important;
+  }
+  .roadmap-wrap .roadmap--bottom .bottom-item:before {
+    background: linear-gradient(1deg, #000 0%, #fff 100%) !important;
+  }
+  .roadmap-wrap .roadmap--bottom .bottom-item .roadmap--info--third {
+    margin-top: 50px !important;
+  }
+  .roadmap-wrap .roadmap--bottom .bottom-item--second {
+    margin-top: 20px !important;
   }
 }
 .roadmap-wrap .roadmap--bottom .bottom-item {
@@ -8948,7 +8972,6 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 .hero-overlay-shape .shape--2 {
   right: -10%;
 }
-
 .them-btn {
   line-height: 1;
   padding: 0 88px;
@@ -8976,6 +8999,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+  margin: 10px;
 }
 .them-btn.btn-transparent {
   background-color: transparent;
@@ -9039,11 +9063,73 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   transform: translateY(-81%);
 }
 
-.btns {
-  margin: -15px;
+/* Telefonlar için (max-width: 767px) */
+@media (max-width: 767px) {
+  .them-btn {
+    width: 80%;
+    font-size: 16px !important;
+    padding: 0 !important;
+  }
+  .xb-item--title {
+    font-size: 38px !important;
+    margin-bottom: 40px;
+  }
+  .coinsocial {
+    padding-top: 200px;
+  }
+  .about-wrap {
+    padding-top: 50px;
+  }
+  .token_chart_1 {
+    padding-top: 100px;
+    width: 100%;
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .chart_btn {
+    padding: 0 !important;
+  }
+  .token_chart_2 {
+    padding-top: 50px;
+  }
+  .token_chart_1 table {
+    font-size: 16px;
+  }
+  .token_chart_1 table tr td {
+    padding: 0;
+  }
+  .section-title .pb-55 {
+    padding-bottom: 10px;
+  }
+  .roadmap-wrap .roadmap--top {
+    justify-content: left;
+  }
+  .roadmap--item .bottom-item {
+    justify-content: left;
+  }
+  .roadmap--year-mobile {
+    display: block !important;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-primary);
+    padding-top: 11px;
+    display: block;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .roadmap--year {
+    display: none !important;
+  }
+  .roadm;
 }
-.btns a {
-  margin: 15px;
+.roadmap--year-mobile {
+  display: none;
+}
+/* Tabletler için (min-width: 768px) ve (max-width: 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .s {
+    /* Tablet için stiller buraya */
+  }
 }
 
 /*----------------------------------------*/
