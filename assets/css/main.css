@@ -5115,7 +5115,6 @@ body[data-aos-easing="ease"] [data-aos] {
   border-radius: 20px;
   padding: 30px;
   position: relative;
-  height: 300px;
   z-index: 1;
   color: #080b18;
   font-weight: bold;
@@ -9066,9 +9065,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 /* Telefonlar için (max-width: 767px) */
 @media (max-width: 767px) {
   .them-btn {
-    width: 80%;
-    font-size: 16px !important;
-    padding: 0 !important;
+    width: 90%;
+    font-size: 14px !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .xb-item--title {
     font-size: 38px !important;
